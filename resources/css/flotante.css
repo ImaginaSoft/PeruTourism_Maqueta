@@ -8,7 +8,7 @@
   font: 12px/16px 'Noto Sans', sans-serif;
 } */
 
-.floating-chat {
+.floating-chat, .chat-window  {
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -91,7 +91,7 @@
 .floating-chat .chat .header .title {
   flex-grow: 1;
   flex-shrink: 1;
-  padding: 0 5px;
+  padding: 0;
 }
 .floating-chat .chat .header button {
   flex-shrink: 0;

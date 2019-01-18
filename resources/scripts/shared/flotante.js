@@ -13,12 +13,12 @@ element.click(openElement);
 
 function openElement() {
     var messages = element.find('.messages');
-    var textInput = element.find('.text-box');
+    //var textInput = element.find('.text-box');
     element.find('>i').hide();
     element.addClass('expand');
     element.find('.chat').addClass('enter');
-    var strLength = textInput.val().length * 2;
-    textInput.keydown(onMetaAndEnter).prop("disabled", false).focus();
+    //var strLength = textInput.val().length * 2;
+    //textInput.keydown(onMetaAndEnter).prop("disabled", false).focus();
     element.off('click', openElement);
     element.find('.header button').click(closeElement);
     element.find('#sendMessage').click(sendNewMessage);
