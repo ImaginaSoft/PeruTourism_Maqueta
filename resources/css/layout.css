@@ -6669,19 +6669,16 @@ section,
     z-index: 2;
     font-weight: 800;
     color: #fff;
-    font-size: 60px;
     padding-left: 4px;
-    border-top: 8px solid #fff;
-    border-bottom: 8px solid #fff;
     line-height: 65px;
     height: 215px;
     bottom: 0;
     margin: auto;
-    text-transform: uppercase;
     width: 520px;
     right: 5%;
-    font-family: Montserrat;
-    font-size: 50px; }
+    font-family: Handlee;
+    font-size: 50px;
+    font-weight: normal; }
   @media (max-width: 1199px) {
     .slider .description {
       right: 0; } }
@@ -7634,5 +7631,34 @@ label.no-pad input {
   width: 100%;
   text-align: center;
   padding: 10px; }
+
+/***** Modal Tablas *****/
+.modal-content .table th {
+  font-weight: 400; }
+
+.modal-content .table-responsive {
+  margin-bottom: 20px; }
+
+.modal-content .table-hover > tbody > tr:hover {
+  background-color: inherit; }
+
+.modal-content .prop-title {
+  height: 100%;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #e41973;
+  font-size: 16px; }
+  .modal-content .prop-title small {
+    display: block;
+    color: #8b9aa5; }
+
+.modal-content .prop-detalle {
+  width: 99%; }
+  .modal-content .prop-detalle .prop-content {
+    margin-top: 55px; }
+  .modal-content .prop-detalle .group {
+    border: 0; }
+  .modal-content .prop-detalle ul {
+    padding-left: 15px; }
 
 /*# sourceMappingURL=layout.css.map */

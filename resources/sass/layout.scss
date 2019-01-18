@@ -602,19 +602,16 @@ section,
         z-index: 2;
         font-weight: 800;
         color: #fff;
-        font-size: 60px;
         padding-left: 4px;
-        border-top: 8px solid #fff;
-        border-bottom: 8px solid #fff;
         line-height: 65px;
         height: 215px;
         bottom: 0;
         margin: auto;
-        text-transform: uppercase;
         width: 520px;      
         right: 5%;
-        font-family: Montserrat;
-        font-size: 50px
+        font-family: Handlee;
+        font-size: 50px;
+        font-weight: normal;
     }
   
     // media max 1199
@@ -1766,4 +1763,40 @@ label.no-pad input {
     width: 100%;
     text-align: center;
     padding: 10px;
+}
+
+/***** Modal Tablas *****/
+.modal-content {  
+  .table th {
+    font-weight: 400;
+  }  
+  .table-responsive {
+    margin-bottom: 20px;
+  }
+  .table-hover>tbody>tr:hover {
+    background-color: inherit;
+  }
+  .prop-title {
+    height: 100%;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: $color-rosa;
+    font-size: 16px;
+    small {
+      display: block;
+      color: #8b9aa5;
+      
+    }
+  }
+  
+  .prop-detalle {
+    width: 99%;
+    .prop-content {
+      margin-top: 55px;
+    }
+    .group {border:0}
+    ul {
+      padding-left: 15px;
+    }
+  }
 }

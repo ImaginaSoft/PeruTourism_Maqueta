@@ -1,0 +1,609 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Peru Tourism: Propuestas para mi viaje!</title>
+  <!-- ingresar descripcion del sitio -->
+  <meta name="description" content="Peru Tourism: Your customized travel website. Go beyond ordinary travel!">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0f703a">
+  <meta name="msapplication-navbutton-color" content="#0f703a">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0f703a">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handlee|Montserrat:400,600,700,800">
+  <link rel="stylesheet" href="resources/css/layout.min.css" media="all">
+  <link rel="stylesheet" href="resources/css/propuestas.min.css" media="all">
+  <link rel="stylesheet" href="resources/css/flotante.css" media="all">
+  <link rel="stylesheet" href="resources/css/font-awesome.min.css" media="all">
+</head>
+
+<body class="modal-open">
+<header id="header">
+  <div class="container-fluid">
+    <div class="row"> 
+      <!-- navegacion -->
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="row">
+            <div class="navbar-header"> 
+              <!-- brand -->
+              <div class="brand"><a href="/perutourism-new/perutourism/0435547143689"><img src="/perutourism-new/Content/images/perutourism-logo.png" title="Peru Tourism" alt="Peru Tourism"></a></div>
+              <div class="slogan"> Customized travel website for:<br>
+                BELL Steven </div>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#siteNav"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse in" id="siteNav">
+          <div class="container">
+            <div class="row">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="/perutourism-new/perutourism/0435547143689">Welcome</a></li>
+                <li><a href="/perutourism-new/Home/VerPropuesta?pCodCliente=143689">Proposals</a></li>
+                <li><a href="javascript:void(0)">Information</a></li>
+                <li><a href="javascript:void(0)">Testimonials</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- navegacion --> 
+</header>
+<div class="content">
+  <style type="text/css">
+    .prop-clear, .prop-clear:hover {
+        background: #fafafa;
+        box-shadow: none;
+    }
+
+        .prop-clear .prop-num::before {
+            display: none;
+        }
+
+        .prop-clear .prop-title::before {
+            display: none;
+        }
+
+        .prop-clear .prop-content .group {
+            border: 0;
+        }
+</style>
+  <style type="text/css">
+    #CondicionesContainer .prop-detalle,
+    #CondicionesContainer .prop-detalle:hover {
+        background: #fafafa;
+        box-shadow: none;
+    }
+
+        #CondicionesContainer .prop-detalle .prop-content {
+            padding-top: 60px;
+        }
+
+        #CondicionesContainer .prop-detalle .prop-num::before {
+            display: none;
+        }
+
+        #CondicionesContainer .prop-detalle .prop-title::before {
+            display: none;
+        }
+
+        #CondicionesContainer .prop-detalle .prop-content .group {
+            border: 0;
+        }
+</style>
+  <div class="content">
+    <div class="container">
+      <section class="welcome"> </section>
+      <section class="options">
+        <div class="op-group">
+          <div class="op op-propuesta"> <a onclick="openBookingStatusModal(158316,4,4,'I')">
+            <div class="icon icon-propuesta"></div>
+            <div class="description"> Bookin<br>
+              Status </div>
+            </a> </div>
+          <div class="op op-info"> <a onclick="openBalanceModal(143689,158316)">
+            <div class="icon icon-info"></div>
+            <div class="description">Balance Due</div>
+            </a> </div>
+          <div class="op op-testimonio"> <a onclick="openInformationBeforeTripModal(158316,4,4,'I')">
+            <div class="icon icon-testimonio"></div>
+            <div class="description">Information for my trip</div>
+            </a> </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div id="balanceContainer">
+    <div class="modal fade" id="detalleBalance-1" tabindex="-1" role="dialog" style="display: none;">
+      <div class="modal-dialog modal-DetalleHotel" role="document">
+        <div class="modal-content">
+          <div class="modal-header"> <strong>Balance</strong>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="table-responsive">
+              <table class="table table-bordered table-responsive table-hover table-pt">
+                <thead>
+                  <tr>
+                    <th>Date </th>
+                    <th>Detail</th>
+                    <th>Balance </th>
+                    <th>Payments</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>02/02/2018 12:00:00 a.m.</td>
+                    <td>NEW PROPOSAL WITH 2 DAY INCA TRAIL  ( Au 26.08.201</td>
+                    <td>1509.0000</td>
+                    <td>0.0000</td>
+                  </tr>
+                  <tr>
+                    <td>02/02/2018 12:00:00 a.m.</td>
+                    <td>MC XXXX XXXX XXXX 8 BELL Steven</td>
+                    <td>0.0000</td>
+                    <td>1509.0000</td>
+                  </tr>
+                  <tr>
+                    <td>02/04/2018 12:00:00 a.m.</td>
+                    <td>BELL Steven - Additional for Inkaterra Reserva</td>
+                    <td>330.0000</td>
+                    <td>0.0000</td>
+                  </tr>
+                  <tr>
+                    <td>22/08/2018 12:00:00 a.m.</td>
+                    <td>MC XXXX XXXX XXXX 8 BELL Steven</td>
+                    <td>0.0000</td>
+                    <td>3851.0000</td>
+                  </tr>
+                  <tr>
+                    <td>26/08/2018 12:00:00 a.m.</td>
+                    <td>NEW PROPOSAL WITH 2 DAY INCA TRAIL  ( Au 26.08.201</td>
+                    <td>3521.0000</td>
+                    <td>0.0000</td>
+                  </tr>
+                  <tr class="table-total hidden-xs">
+                    <td colspan="3">Total</td>
+                    <td>0.0000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="div-total visible-xs"> Total: 0.0000 </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="BookingStatusContainer">
+    <div class="modal fade" id="detalleBookingStatus-1" tabindex="-1" role="dialog" style="display: none;">
+      <div class="modal-dialog modal-DetalleHotel" role="document">
+        <div class="modal-content">
+          <div class="modal-header"> <strong>Booking Status</strong>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="table-responsive">
+              <div class="prop-title">PASSENGERS</div>
+              <table class="table table-bordered table-responsive table-hover table-pt">
+                <thead>
+                  <tr>
+                    <th>First Name</th>
+                    <th>Last Name </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>BELL / Steven Andrew</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>bari david</td>
+                    <td>gloria</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-responsive">
+              <div class="prop-title">LAND SERVICES</div>
+              <table class="table table-bordered table-responsive table-hover table-pt">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Status</th>
+                    <th>Comments</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>All land services</td>
+                    <td>ok</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-responsive">
+              <div class="prop-title">TRANSPORT TICKET</div>
+              <table class="table table-bordered table-responsive table-hover table-pt">
+                <thead>
+                  <tr>
+                    <th>Date Flight</th>
+                    <th>Route</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>01/09/2018 12:00:00 a.m.</td>
+                    <td>At an appointed time, rid</td>
+                    <td>OK</td>
+                  </tr>
+                  <tr>
+                    <td>01/09/2018 12:00:00 a.m.</td>
+                    <td>&lt;P&gt;Transfer from the trai</td>
+                    <td>OK</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-responsive">
+              <div class="prop-title">AIR TICKET</div>
+              <table class="table table-bordered table-responsive table-hover table-pt">
+                <thead>
+                  <tr>
+                    <th>Date Flight</th>
+                    <th>Route</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>26/08/2018 12:00:00 a.m.</td>
+                    <td>London to Lima</td>
+                    <td>OK </td>
+                  </tr>
+                  <tr>
+                    <td>28/08/2018 12:00:00 a.m.</td>
+                    <td>LIM-CUZ</td>
+                    <td>OK </td>
+                  </tr>
+                  <tr>
+                    <td>02/09/2018 12:00:00 a.m.</td>
+                    <td>CUZ-PEM</td>
+                    <td>OK </td>
+                  </tr>
+                  <tr>
+                    <td>05/09/2018 12:00:00 a.m.</td>
+                    <td>PEM-(cuz)-LIM</td>
+                    <td>OK </td>
+                  </tr>
+                  <tr>
+                    <td>05/09/2018 12:00:00 a.m.</td>
+                    <td>Lima to London</td>
+                    <td>OK </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-responsive">
+              <div class="prop-title">HOTEL</div>
+              <table class="table table-bordered table-responsive table-hover table-pt">
+                <thead>
+                  <tr>
+                    <th>Country</th>
+                    <th>Hotel</th>
+                    <th>Phone</th>
+                    <th>Status</th>
+                    <th>Alternative</th>
+                    <th>Updated</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td>Cusco</td>
+                    <td>San Agustin El Dorado</td>
+                    <td>(51 84) 231-232</td>
+                    <td>OK </td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Lima</td>
+                    <td>El Tambo 2</td>
+                    <td>(511) 200 0100</td>
+                    <td>OK </td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Machu Picchu</td>
+                    <td>Hotel Ferre Machu Picchu</td>
+                    <td></td>
+                    <td>OK </td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Puerto Maldonado</td>
+                    <td>Inkaterra Reserva Amazónica Hotel</td>
+                    <td></td>
+                    <td>OK </td>
+                    <td>Inkaterra Reserva Amazónica Hotel</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Valle Sagrado</td>
+                    <td>San Agustín Urubamba Hotel</td>
+                    <td>(51-084) 201 444</td>
+                    <td>OK </td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="InforBeforeTripContainer">
+    <div class="modal fade in" id="detalleInforBeforeTrip-1" tabindex="-1" role="dialog" style="display: block; padding-left: 17px;">
+      <div class="modal-dialog modal-DetalleHotel" role="document">
+        <div class="modal-content">
+          <div class="modal-header"> <strong>Antes de mi viaje</strong>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="table-responsive">
+              <div class="prop-title">SELECTED HOTELS</div>
+              <table class="table table-bordered table-responsive table-hover table-pt">
+                <thead>
+                  <tr>
+                    <th>City</th>
+                    <th>Hotel</th>
+                    <th>Telephone</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Cusco</td>
+                    <td>San Agustin El Dorado</td>
+                    <td>(51 84) 231-232</td>
+                  </tr>
+                  <tr>
+                    <td>Lima</td>
+                    <td>El Tambo 2</td>
+                    <td>(511) 200 0100</td>
+                  </tr>
+                  <tr>
+                    <td>Machu Picchu</td>
+                    <td>Hotel Ferre Machu Picchu</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Puerto Maldonado</td>
+                    <td>Inkaterra Reserva Amazónica Hotel</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Valle Sagrado</td>
+                    <td>San Agustín Urubamba Hotel</td>
+                    <td>(51-084) 201 444</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-responsive">
+              <div class="prop-title">PERUTOURIS'M 24 HOURS TELEPHONE NUMBER</div>
+              <table class="table table-bordered table-responsive table-hover table-pt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Responsability</th>
+                    <th>Telephone</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Viviana Santillán</td>
+                    <td>Travel Specialist</td>
+                    <td>982-481-587 </td>
+                  </tr>
+                  <tr>
+                    <td>Rosario Chahud</td>
+                    <td>General Manager</td>
+                    <td>995-975-098 </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div>http://youtu.be/dshlOv7G_cM</div>
+            <div class="table-responsive">
+              <div class="prop-title">WEATHER</div>
+              <table class="table table-bordered table-responsive table-hover table-pt">
+                <thead>
+                  <tr>
+                    <th>City</th>
+                    <th>Mont-Year</th>
+                    <th>Temperature low</th>
+                    <th>Temperature high</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Lima</td>
+                    <td>Aug 2018</td>
+                    <td>14 °C/ 57 ºF</td>
+                    <td>18 °C/ 64 ºF</td>
+                  </tr>
+                  <tr>
+                    <td>Cusco</td>
+                    <td>Aug 2018</td>
+                    <td>02 °C/ 36 ºF</td>
+                    <td>20 °C/ 68 ºF</td>
+                  </tr>
+                  <tr>
+                    <td>Puerto Maldonado</td>
+                    <td>Sep 2018</td>
+                    <td>20 °C/ 68 ºF</td>
+                    <td>31 °C/ 88 ºF</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="prop-title">REQUIREMENTS TO VISIT PERU <small>To visit Peru is not necesserary to get a Visa. Only your valid passport.</small></div>            
+            <div class="group prop-detalle">
+              <div class="group group-collapse collapsed" data-toggle="collapse" data-target="#content1">
+                <div class="prop-num"><span>Clothes</span></div>
+              </div>
+              <div class="prop-content collapse in" id="content1">
+                <div class="group">
+                  <p> To confirm confirm your trip we just need a deposit of the 30%, this first payment can be done online through your personalized website only if you hava a Visa Card or Master Card
+                    , if you have American Express card I will send you our services agreement by email. <br>
+                    The balance due (70%) must be paid at your arrival in Lima. </p>
+                </div>
+              </div>
+              <div class="prop-icon"></div>
+            </div>
+            <div class="group prop-detalle">
+              <div class="group group-collapse collapsed" data-toggle="collapse" data-target="#content1">
+                <div class="prop-num"><span>Luggage</span></div>
+              </div>
+              <div class="prop-content collapse in" id="content1">
+                <div class="group">
+                  <ul>
+                    <li>Binoculars.</li>
+                    <li>Hotels in Cusco can store suitcases of travelers that spend nights in the Sacred Valley and/or Machu Picchu so you can take just a small bag or backpack with you.</li>
+                    <li>Self-sealing bags for electronic equipment.</li>
+                    <li>Windbreaker.</li>
+                    <li>One small day pack.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="prop-icon"></div>
+            </div>
+            <div class="group prop-detalle">
+              <div class="group group-collapse collapsed" data-toggle="collapse" data-target="#content1">
+                <div class="prop-num"><span>Currency &amp; Exchange Rate</span></div>
+              </div>
+              <div class="prop-content collapse in" id="content1">
+                <div class="group">
+                  <ul>
+                    <li> Our ofﬁcial currency is Nuevo Sol. We have bills of 10, 20, 50, 100 and 200 Nuevos Soles. We also have
+                      coins of 5, 10, 20 and 50 cents as well as coins of 1, 2 and 5 Nuevos Soles. </li>
+                    <li>One American Dolar is around 3 Nuevos Soles.</li>
+                    <li>One Euro is around 3.88 Nuevos Soles approximately.</li>
+                    <li>ATM's are very easy to ﬁnd across the country. They are in English and Spanish.</li>
+                    <li>Credit Cards are welcomed in hotels, restaurants, shops, etc. Visa, American Express and Master Card are the most used.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="prop-icon"></div>
+            </div>
+            <div class="group prop-detalle">
+              <div class="group group-collapse collapsed" data-toggle="collapse" data-target="#content1">
+                <div class="prop-num"><span>Tips</span></div>
+              </div>
+              <div class="prop-content collapse in" id="content1">
+                <div class="group">
+                  <ul>
+                    <li> It's always recommendable to give a tip to the Inca trail staff. An average per traveler is US$40 – US$60
+                      (this money goes for the guide, cookers and porters). </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="prop-icon"></div>
+            </div>
+            <div class="group prop-detalle">
+              <div class="group group-collapse collapsed" data-toggle="collapse" data-target="#content1">
+                <div class="prop-num"><span>Travel Documents &amp; Vaccines</span></div>
+              </div>
+              <div class="prop-content collapse in" id="content1">
+                <div class="group">
+                  <ul>
+                    <li> To visit Peru is necessary to bring your valid passport. Only citizens from Colombia, Ecuador, Bolivia, Brazil, Chile and Argentina need their ID to come. </li>
+                    <li> Upon your arrival at Lima's airport you will receive your immigration card (TAM) which exempts from paying 10% of hotels taxes. In case you lose this card, for law hotels will have to charge the additional cost. </li>
+                    <li> In case you would have some stop-overs in other countries during your ﬂights to or from Lima, we rec
+                      ommend you to check what kind of documentation those countries require (visas, shots, etc). </li>
+                    <li> A valid passport is required to enter Ecuador, at least 6 months valid. </li>
+                    <li> No inoculations are required to entry to Ecuador. </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="prop-icon"></div>
+            </div>
+            <div class="group prop-detalle">
+              <div class="group group-collapse collapsed" data-toggle="collapse" data-target="#content1">
+                <div class="prop-num"><span>Foods &amp; Drinks</span></div>
+              </div>
+              <div class="prop-content collapse in" id="content1">
+                <div class="group">
+                  <ul>
+                    <li> In Peru you can ﬁnd restaurants that offer dishes from US$3.00. </li>
+                    <li> Drink only bottled water, which is widely available. Do not drink tap water, even in major hotels. Agua con gas is carbonated; agua sin gas is plain. </li>
+                    <li> Avoid eating from street vendors. </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="prop-icon"></div>
+            </div>
+            <div class="group prop-detalle">
+              <div class="group group-collapse collapsed" data-toggle="collapse" data-target="#content1">
+                <div class="prop-num"><span>Altitude Sickness</span></div>
+              </div>
+              <div class="prop-content collapse in" id="content1">
+                <div class="group">
+                  <ul>
+                    <li> During your visits to cities located over the 8200 feet above sea level, like Cusco (11,000 ft) or Lake Titi caca (13,000 ft), shortness of breath and heart pounding are normal, given the scarcity of oxygen. Some people may experience headache, loss of appetite, extreme fatigue and nausea.
+                      Most symptoms de velop the ﬁrst day at high altitude, though, occasionally, travelers have delayed reactions.
+                      The best advice is to rest on your ﬁrst day in the highlands. Drink plenty of liquids, including the local remedy: mate de coca or coca - leaf tea (It’s perfectly legal). Avoid alcohol, sodas and heavy food.
+                      You can avoid altitude sickness taking 500 mg a day of acetazolamide (Diamox or Soroche Pills) taken 24 hours before departure and continued up to 48 hours after arrival to these cities. Acetazolamide should not be given to persons allergic to sulfa drugs. </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="prop-icon"></div>
+            </div>
+            <div class="group prop-detalle">
+              <div class="group group-collapse collapsed" data-toggle="collapse" data-target="#content1">
+                <div class="prop-num"><span>Gastronomy</span></div>
+              </div>
+              <div class="prop-content collapse in" id="content1">
+                <div class="group">
+                  <ul>
+                    <li> Peruvian gastronomy is unique and unbeatable. Its ﬂavours and textures are the result of a fusion of the many cultures that were brought to Peru in the centuries after the Spanish conquest. Peru's enormous biodiversity -plus this cultural amalgam- is also an important part of its gastronomy, since it provides ingredients that are impossible to come across in other parts of the world. When you taste Peruvian food for the ﬁrst time you will understand why it is considered one of the world's best.
+                      Click here to check our Restaurant Guide. </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="prop-icon"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/perutourism-new/scripts/jquery-3.3.1.min.js"></script> 
+  <script src="/perutourism-new/Scripts/Galeria/Galeria.js"></script> 
+  <script src="/perutourism-new/Scripts/Envio/EnvioMensaje.js"></script> 
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+<script src="/perutourism-new/scripts/jquery-3.3.1.min.js"></script> 
+<script src="/perutourism-new/Content/scripts/third/bootstrap.min.js"></script> 
+<script src="/perutourism-new/Content/scripts/third/parallax.min.js"></script> 
+<script src="/perutourism-new/Content/scripts/views/home.js"></script> 
+<script src="/perutourism-new/Content/scripts/views/propuestas.js"></script> 
+<script src="/perutourism-new/Content/scripts/views/chat.js"></script>
+<div class="modal-backdrop fade in"></div>
+</body>
+</html>
